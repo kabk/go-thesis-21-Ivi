@@ -1,0 +1,77 @@
+/* main information for all parts of website */
+body {
+    background-color:rgb(255, 107, 0);
+}
+
+a {
+  text-decoration:none;
+  color: black;
+}
+
+/* closing button  */
+#mdiv {
+  width: 25px;
+  height: 25px;
+  border: 1px solid white;
+
+  position:sticky;
+  right:5px;
+  margin-top:0;
+  padding-top:0;
+}
+.mdiv {
+  height: 25px;
+  width: 2px;
+  margin-left: 12px;
+  background-color: white;
+  transform: rotate(45deg);
+  Z-index: 1;
+}
+.md {
+  height: 25px;
+  width: 2px;
+  background-color: white;
+  transform: rotate(90deg);
+  Z-index: 2;
+}
+
+
+/* title */
+h1 {
+  font-size: 60px;
+  color: white;
+  weight: italic;
+  font-family: 'Space Mono', monospace;
+
+  text-align: center;
+  line-height: 55px;
+}
+/* subtitle */
+h2 {
+  font-size: 25px;
+  color: white;
+  weight: italic;
+  font-family: 'Space Mono', monospace;
+
+  text-align: center;
+  line-height: 30px;
+}
+
+
+/* rituals */
+.oval1, .oval2, .oval3, .oval4, .oval5, .oval6 {
+  height: 15vh;
+  width: 80vw;
+  border-radius: 50%;
+  background: white;
+  /*border: white 5px solid;*/
+
+  position: relative;
+  left: 10%;
+  margin-bottom: 20px;
+
+  font-family:'Space Mono', monospace;
+  font-size: 30px;
+  font-style: normal;
+  color: rgb(255, 107, 0);
+  text-align: center;

@@ -1,0 +1,136 @@
+/* main information for all parts of website */
+body {
+
+}
+
+.blackbackground {background:black;}
+
+a {
+  text-decoration:none;
+  color: black;
+}
+
+img {
+  border-radius: 8px;
+  width: (calc((100%/5)*2))vw;
+  align: center;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  font-family: helvetica;
+
+  text-align: center;
+  line-height: 40px;
+
+}
+
+/* closing button  */
+#mdiv {
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+
+  position:sticky;
+  margin-top:0;
+  padding-top:0;
+}
+.mdiv {
+  height: 25px;
+  width: 2px;
+  margin-left: 12px;
+  background-color: black;
+  transform: rotate(45deg);
+  Z-index: 1;
+}
+.md {
+  height: 25px;
+  width: 2px;
+  background-color: black;
+  transform: rotate(90deg);
+  Z-index: 2;
+}
+
+
+/* blockmenu */
+.rectangle1, .rectangle2, .rectangle3 {
+  width: 90vw;
+  /*outline: 2px black solid;*/
+  background-color:white;
+  display: inline-block;
+
+  margin-left:2vw;
+  margin-top: 15px;
+}
+
+.rectangle1 {height: 25vh}
+.rectangle2 {height: 45vh}
+.rectangle3 {height: 20vh}
+
+
+/*.blockmenu {
+  font-family: arial;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+  text-align: left;
+}*/
+
+/* ritual menu */
+.oval1, .oval2, .oval3, .oval4, .oval5, .oval6 {
+  height: 8vh;
+  width: 210px;
+  background-color:rgb(177, 177, 177);
+  border-radius: 50%;
+  /*border: orange 5px solid;*/
+
+  position: absolute;
+  z-index: 1;
+}
+
+.oval1 {
+  top: 15vh;
+  left: 57%;
+}
+.oval2 {
+  top: 30vh;
+  left: 15%;
+}
+.oval3 {
+  top: 65vh;
+  left: 65%;
+}
+.oval4 {
+  top: 70vh;
+  left: 10%;
+}
+.oval5 {
+  top: 80vh;
+  left: 50%;
+}
+.oval6 {
+  top: 95vh;
+  left: 40%;
+}
+
+
+/* bottom colophon */
+.bottom-colophon {
+  font-family: arial;
+  font-size: 10px;
+  font-weight: lighter;
+  font-style: italic;
+  color: white;
+
+  text-align: center;
+  margin-bottom: 5px;
+  line-height: 4px;
+
+  z-index:1;
+
+  position: relative;
+  bottom: 10px;
+  left: 5vw;
+}
