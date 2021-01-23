@@ -1,24 +1,22 @@
 /* main information for all parts of website */
 body {
     background-color:rgb(255, 107, 0);
-
     font-family: 'Space Mono', monospace;
     font-size: 15px;
     color: white;
     text-align: center;
 }
 
-
 /* closing button  */
 #mdiv {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 1%;
   width: 25px;
   height: 25px;
   border: 1px solid white;
-
-  position:sticky;
   right:5px;
-  margin-top:0;
-  padding-top:0;
+  padding-top: 0;
 }
 .mdiv {
   height: 25px;
@@ -38,12 +36,11 @@ body {
 
 /* title */
 h1 {
-  font-size: 60px;
+  font-size: 120px;
   color: white;
   font-family: 'Space Mono', monospace;
-
   text-align: center;
-  line-height: 50px;
+  line-height: 118px;
 }
 /* subtitle */
 h2 {
@@ -51,9 +48,16 @@ h2 {
   color: white;
   weight: italic;
   font-family: 'Space Mono', monospace;
-
   text-align: center;
   line-height: 30px;
+}
+
+header {
+  padding-bottom: 20vh;
+}
+
+.ritual_container {
+  padding-bottom: 20vh;
 }
 
 .ritualbox {
@@ -134,5 +138,4 @@ h2 {
 
   -webkit-transform-origin:100% 100%;
   transform-origin:100% 100%;
-
 }
