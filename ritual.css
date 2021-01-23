@@ -2,7 +2,7 @@
 body {
     background-color:rgb(255, 107, 0);
     font-family: 'Space Mono', monospace;
-    font-size: 15px;
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     color: white;
     text-align: center;
 }
@@ -36,12 +36,13 @@ body {
 
 /* title */
 h1 {
-  font-size: 120px;
+  font-size: calc(70px + (120 - 20) * ((80vw - 100px) / (1600 - 300)));
   color: white;
   font-family: 'Space Mono', monospace;
   text-align: center;
-  line-height: 118px;
+  line-height: calc(70px + (118 - 20) * ((80vw - 100px) / (1600 - 300)));
 }
+
 /* subtitle */
 h2 {
   font-size: 25px;
@@ -82,12 +83,12 @@ header {
   margin-bottom: 20px;
 
   font-family:'Space Mono', monospace;
-  font-size: 70px;
+  font-size: calc(50px + (70 - 20) * ((80vw - 100px) / (1600 - 300)));
   color: rgb(255, 107, 0);
   text-align: center;
 }
 
-/*heart-shape*/
+/*dot*/
 #circle {
   position: relative;
   left: 50%;

@@ -9,10 +9,30 @@
   src: url(type/Agrandir.otf);
 }
 
-body {
+.blackbackground {background:black;}
+
+#demo, #demo1 {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid black;
+  font-size: 30px;
+  z-index: 2;
 }
 
-.blackbackground {background:black;}
+.ind{
+  background-color: orange;
+  cursor: pointer;
+}
+
+#circle {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+}
 
 a {
   text-decoration:none;
@@ -181,6 +201,8 @@ p {
 
 .footnote {}
 
-.intextquote {}
+.intextquote {
+  display: inline;
+}
 
 .poem {}
