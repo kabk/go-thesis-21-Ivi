@@ -9,14 +9,15 @@ body {
 
 /* closing button  */
 #mdiv {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
   top: 1%;
   width: 25px;
   height: 25px;
   border: 1px solid white;
   right:5px;
   padding-top: 0;
+
+  position: -webkit-sticky;
+  position: sticky;
 }
 .mdiv {
   height: 25px;
