@@ -1,15 +1,10 @@
-  @media only screen and (orientation: portrait) {
+@media only screen and (orientation: portrait) {
     #storytext {display:none;}
   }
 
 @media only screen and (orientation: landscape) {
   #mainbodytext {display:none;}
-  #storytext {
-    font-size: 15px;
-    color: black;
-    font-family: Agrandir;
-
-    line-height: 22px;}
+  #storytext {display:block;}
 }
 
 
@@ -98,7 +93,7 @@ img {
 }
 
 /* bodytext */
-.maintext {
+#mainbodytext {
   font-size: 15px;
   color: black;
   font-family:Cirka;
