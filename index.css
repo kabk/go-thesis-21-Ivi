@@ -1,10 +1,10 @@
-
-@media only screen and (orientation: portrait) {
-  body {
-    background-color:green;
-    }
-  }
-
+   @media only screen and (orientation:portrait){
+       #storytext { display:none; }
+       #mainbodytext { display:block; }
+   }
+   @media only screen and (orientation:landscape){
+       #mainbodytext { display:none; }
+   }
 
 
 /* main information for all parts of website */
