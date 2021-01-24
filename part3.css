@@ -1,6 +1,6 @@
 @media only screen and (orientation: portrait) {
   body {
-    background-color: orange; 
+    background-color: orange;
   }
 }
 
@@ -52,6 +52,13 @@ h3 {
   font-family: Agrandir;
 
   line-height: 17px;
+}
+
+/* images IN text */
+img {
+  border-radius: 8px;
+  width:30vw;
+  height:auto;
 }
 
 /* bodytext */
