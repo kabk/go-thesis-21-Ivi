@@ -1,10 +1,10 @@
     #storytext { display:block; }
    @media only screen and (orientation:portrait){
-       #mainbodytext { display:none; }
-       #storytext { display:block; }
+       #storytext { display:none; }
+       #mainbodytext { display:block; }
    }
    @media only screen and (orientation:landscape){
-       #storytext { display:none; }
+       #mainbodytext { display:none; }
    }
 
 
