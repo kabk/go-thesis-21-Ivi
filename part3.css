@@ -79,14 +79,6 @@ body {
       line-height: 22px;
     }
 
-    h3 {
-      font-size: 15px;
-      color: black;
-      font-family: Agrandir;
-
-      line-height: 17px;
-    }
-
     /* images IN text */
     img {
       border-radius: 8px;
@@ -97,10 +89,10 @@ body {
     }
 
     /* bodytext */
-    #mainbodytext {
+  #mainbodytext, .mainbodytext {
       font-size: 15px;
       color: black;
-      font-family:Cirka;
+      font-family: Cirka;
 
       line-height: 15px;
     }
@@ -111,7 +103,8 @@ body {
 /* _______________________________________________________ */
 
 @media only screen and (orientation: landscape) {
-  #mdiv, .mdiv, .md, .parttitle-block, .parttitle, img, h2, h3, #mainbodytext {display:none;}
+  #mdiv, .mdiv, .md, .parttitle-block, .parttitle, img, h2, .navsystembottom {display:none;}
+  #mainbodytext {display:none;}
 }
 
 #storytext, .storytext{
@@ -119,5 +112,5 @@ body {
   color: black;
   font-family: Agrandir;
 
-  line-height: 22px;
+  line-height: 30px;
 }
