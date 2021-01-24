@@ -2,9 +2,13 @@
 body {
     background-color:rgb(255, 107, 0);
     font-family: 'Space Mono', monospace;
-    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-size: 15px;
     color: white;
     text-align: center;
+
+
+    padding: 25px;
+
 }
 
 /* closing button  */
@@ -36,11 +40,11 @@ body {
 
 /* title */
 h1 {
-  font-size: calc(70px + (120 - 20) * ((80vw - 100px) / (1600 - 300)));
+  font-size: 70px;
   color: white;
   font-family: 'Space Mono', monospace;
   text-align: center;
-  line-height: calc(70px + (118 - 20) * ((80vw - 100px) / (1600 - 300)));
+  line-height: 65px;
 }
 
 /* subtitle */
