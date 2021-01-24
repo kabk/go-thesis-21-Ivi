@@ -24,7 +24,7 @@ body {
 
 /*notvisible on portrait */
 @media only screen and (orientation: portrait) {
-    #storytext, .storytext, .storytitle, .storysubtitle {display:none;}
+    #storytext, .storytext, .storytitle, .storysubtitle, .storytext-decorated {display:none;}
 
 /*visible on portrait*/
     /* closing button  */
@@ -104,11 +104,30 @@ body {
 
   }
 
+  a {
+    text-decoration:none;
+    color: black;
+
+    font-family:Agrandir;
+    font-size:12px;
+  }
+
+  .navbutton-block {
+    width: 90vw;
+    height: 35px;
+    outline: 1px black solid;
+    display: inline-block;
+
+    margin-left:2vw;
+    margin-top:2px;
+    margin-bottom:2px;
+  }
+
 /* orientation LANDSCAPE >> orientation */
 /* _______________________________________________________ */
 
 @media only screen and (orientation: landscape) {
-  #mdiv, .mdiv, .md, .parttitle-block, .parttitle, img, h2, .navsystembottom {display:none;}
+  #mdiv, .mdiv, .md, .parttitle-block, .parttitle, img, h2, .navsystembottom, .navbutton-block, a {display:none;}
   #mainbodytext {display:none;}
 }
 
@@ -136,4 +155,13 @@ body {
   text-align:center;
 
   line-height: 30px;
+}
+
+.storytext-decorated {
+  font-family: Agrandir-bold;
+  text-align:center;
+  font-size: 20px;
+
+  -webkit-text-stroke: 1px black;
+  -webkit-text-fill-color: white;
 }
