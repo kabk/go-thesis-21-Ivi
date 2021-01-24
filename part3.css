@@ -1,23 +1,15 @@
-#storytext {display:none;}
   @media only screen and (orientation: portrait) {
-    #mainbodytext {display:none;}
-    #storytext {display:block;}
+    #storytext {display:none;}
   }
 
 @media only screen and (orientation: landscape) {
-  body {
-    background-color: orange;
-  }
-
+  #mainbodytext {display:none;}
   #storytext {
-    display:none;
-    
     font-size: 15px;
     color: black;
     font-family: Agrandir;
 
-    line-height: 22px;
-  }
+    line-height: 22px;}
 }
 
 
@@ -31,6 +23,33 @@
 @font-face {
   font-family: Agrandir;
   src: url(type/Agrandir.otf);
+}
+
+/* closing button  */
+#mdiv {
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  background-color:white;
+
+  position:sticky;
+  top:0;
+  left:0;
+}
+.mdiv {
+  height: 25px;
+  width: 2px;
+  margin-left: 12px;
+  background-color: black;
+  transform: rotate(45deg);
+  Z-index: 1;
+}
+.md {
+  height: 25px;
+  width: 2px;
+  background-color: black;
+  transform: rotate(90deg);
+  Z-index: 2;
 }
 
 
