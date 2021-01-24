@@ -1,3 +1,12 @@
+
+@media only screen and (orientation: portrait) {
+  body {
+    background-color:green;
+    }
+  }
+
+
+
 /* main information for all parts of website */
 /* _______________________________________________________ */
 @font-face {
@@ -21,10 +30,11 @@ a {
 
 }
 
+
 .navbutton-block {
   width: 90vw;
   height: 35px;
-  outline: 2px black solid;
+  outline: 1px black solid;
   display: inline-block;
 
   margin-left:2vw;
@@ -179,13 +189,13 @@ a {
   z-index: 2;
 }
 .ind{
-  background-color: orange;
+  background-color:rgb(255, 107, 0);
   cursor: pointer;
 }
 #circle {
   position: relative;
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   background: white;
   border-radius: 50%;
 }
