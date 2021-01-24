@@ -1,12 +1,8 @@
-    #storytext { display:block; }
-   @media only screen and (orientation:portrait){
-       #storytext { display:none; }
-       #mainbodytext { display:block; }
-   }
-   @media only screen and (orientation:landscape){
-       #mainbodytext { display:none; }
-   }
-
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: lightblue;
+  }
+}
 
 /* main information for all parts of website */
 /* _______________________________________________________ */
