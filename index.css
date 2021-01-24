@@ -181,13 +181,15 @@ a {
 /* MAIN TEXT THESIS */
 /* _______________________________________________________ */
 /* sourcing buttons popups*/
-#demo, #demo1 {
+#demo, #demo1, #demo2 {
   position: fixed;
   bottom: 0%;
   width: 100%;
   background-color: white;
   border-top: 1px solid black;
-  font-size: 30px;
+
+  font-family: Cirka;
+  font-size: 20px;
   z-index: 2;
 }
 .ind{
@@ -208,7 +210,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 80%;
 }
 
 /* headers/titles */
@@ -235,6 +237,14 @@ img {
 
 h2 {
   font-size: 20px;
+  color: black;
+  font-family: Agrandir;
+
+  line-height: 22px;
+}
+
+h3 {
+  font-size: 15px;
   color: black;
   font-family: Agrandir;
 
