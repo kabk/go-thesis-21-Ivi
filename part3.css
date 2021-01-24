@@ -1,8 +1,25 @@
-@media only screen and (orientation: portrait) {
+#storytext {display:none;}
+  @media only screen and (orientation: portrait) {
+    #mainbodytext {display:none;}
+    #storytext {display:block;}
+  }
+
+@media only screen and (orientation: landscape) {
   body {
     background-color: orange;
   }
+
+  #storytext {
+    display:none;
+    
+    font-size: 15px;
+    color: black;
+    font-family: Agrandir;
+
+    line-height: 22px;
+  }
 }
+
 
 /* main information for all parts of website */
 /* _______________________________________________________ */
