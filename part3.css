@@ -1,0 +1,68 @@
+    #storytext { display:block; }
+   @media only screen and (orientation:portrait){
+       #mainbodytext { display:none; }
+       #storytext { display:block; }
+   }
+   @media only screen and (orientation:landscape){
+       #storytext { display:none; }
+   }
+
+
+/* main information for all parts of website */
+/* _______________________________________________________ */
+@font-face {
+  font-family: Cirka;
+  src: url(type/Cirka.otf);
+}
+
+@font-face {
+  font-family: Agrandir;
+  src: url(type/Agrandir.otf);
+}
+
+
+/* headers/titles */
+.parttitle-block {
+  width: 90vw;
+  height: 30vh;
+  outline: 2px black solid;
+  display: inline-block;
+
+  margin-left:2vw;
+  margin-top:10px;
+  margin-bottom: 30px;
+}
+
+.parttitle {
+  font-family:Agrandir;
+  font-size: 50px;
+  color: black;
+
+  line-height:80px;
+  margin-left: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  color: black;
+  font-family: Agrandir;
+
+  line-height: 22px;
+}
+
+h3 {
+  font-size: 15px;
+  color: black;
+  font-family: Agrandir;
+
+  line-height: 17px;
+}
+
+/* bodytext */
+.maintext {
+  font-size: 15px;
+  color: black;
+  font-family:Cirka;
+
+  line-height: 15px;
+}
