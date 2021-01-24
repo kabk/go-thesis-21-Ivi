@@ -1,3 +1,4 @@
+    #storytext { display:block; }
    @media only screen and (orientation:portrait){
        #mainbodytext { display:none; }
        #storytext { display:block; }
