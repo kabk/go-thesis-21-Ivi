@@ -1,13 +1,3 @@
-@media only screen and (orientation: portrait) {
-    #storytext {display:none;}
-  }
-
-@media only screen and (orientation: landscape) {
-  #mainbodytext {display:none;}
-  #storytext {display:block;}
-}
-
-
 /* main information for all parts of website */
 /* _______________________________________________________ */
 @font-face {
@@ -20,83 +10,114 @@
   src: url(type/Agrandir.otf);
 }
 
-/* closing button  */
-#mdiv {
-  width: 25px;
-  height: 25px;
-  border: 1px solid black;
-  background-color:white;
-
-  position:sticky;
-  top:0;
-  left:0;
-}
-.mdiv {
-  height: 25px;
-  width: 2px;
-  margin-left: 12px;
-  background-color: black;
-  transform: rotate(45deg);
-  Z-index: 1;
-}
-.md {
-  height: 25px;
-  width: 2px;
-  background-color: black;
-  transform: rotate(90deg);
-  Z-index: 2;
+body {
+  padding: 25px;
 }
 
+/* orientation PORTRAIT >> landscape off*/
+/* _______________________________________________________ */
 
-/* headers/titles */
-.parttitle-block {
-  width: 90vw;
-  height: 30vh;
-  outline: 2px black solid;
-  display: inline-block;
+/*notvisible on portrait */
+@media only screen and (orientation: portrait) {
+    #storytext, .storytext {display:none;}
 
-  margin-left:2vw;
-  margin-top:10px;
-  margin-bottom: 30px;
+/*visible on portrait*/
+    /* closing button  */
+    #mdiv {
+      width: 25px;
+      height: 25px;
+      border: 1px solid black;
+      background-color:white;
+
+      position:sticky;
+      top:0;
+      left:0;
+    }
+    .mdiv {
+      height: 25px;
+      width: 2px;
+      margin-left: 12px;
+      background-color: black;
+      transform: rotate(45deg);
+      Z-index: 1;
+    }
+    .md {
+      height: 25px;
+      width: 2px;
+      background-color: black;
+      transform: rotate(90deg);
+      Z-index: 2;
+    }
+
+
+    /* headers/titles */
+    .parttitle-block {
+      width: 90vw;
+      height: 30vh;
+      outline: 2px black solid;
+      display: inline-block;
+
+      margin-left:2vw;
+      margin-top:10px;
+      margin-bottom: 30px;
+    }
+
+    .parttitle {
+      font-family:Agrandir;
+      font-size: 50px;
+      color: black;
+
+      line-height:80px;
+      margin-left: 10px;
+    }
+
+    h2 {
+      font-size: 20px;
+      color: black;
+      font-family: Agrandir;
+
+      line-height: 22px;
+    }
+
+    h3 {
+      font-size: 15px;
+      color: black;
+      font-family: Agrandir;
+
+      line-height: 17px;
+    }
+
+    /* images IN text */
+    img {
+      border-radius: 8px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    /* bodytext */
+    #mainbodytext {
+      font-size: 15px;
+      color: black;
+      font-family:Cirka;
+
+      line-height: 15px;
+    }
+
+  }
+
+/* orientation LANDSCAPE >> orientation */
+/* _______________________________________________________ */
+
+@media only screen and (orientation: landscape) {
+  #mdiv, .mdiv, .md, .parttitle-block, .parttitle, img, h2, h3, #mainbodytext {display:none;}
 }
 
-.parttitle {
-  font-family:Agrandir;
-  font-size: 50px;
-  color: black;
-
-  line-height:80px;
-  margin-left: 10px;
-}
-
-h2 {
-  font-size: 20px;
+#storytext, .storytext{
+  font-size: 15px;
   color: black;
   font-family: Agrandir;
 
   line-height: 22px;
-}
-
-h3 {
-  font-size: 15px;
-  color: black;
-  font-family: Agrandir;
-
-  line-height: 17px;
-}
-
-/* images IN text */
-img {
-  border-radius: 8px;
-  width:30vw;
-  height:auto;
-}
-
-/* bodytext */
-#mainbodytext {
-  font-size: 15px;
-  color: black;
-  font-family:Cirka;
-
-  line-height: 15px;
 }
