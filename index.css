@@ -22,6 +22,11 @@ body {
   padding: 10px;
 }
 
+a {
+    text-decoration:none;
+    color: black;
+}
+
 .navbutton-block {
   width: 90vw;
   height: 35px;
@@ -32,8 +37,6 @@ body {
   margin-top:2px;
   margin-bottom:2px;
 }
-
-a {text-decoration:none;}
 
 .navsystem-text {
   margin-left: 10px;
