@@ -141,11 +141,27 @@ body {
     margin-bottom:2px;
   }
 
+  .navsystem-text {
+    margin-left: 10px;
+    color: black;
+
+    font-family:Agrandir;
+    font-size:12px;
+  }
+
+  .researchquestion {
+    font-size: 20px;
+    color:rgb(255, 107, 0);
+    font-family: Cirka;
+
+    line-height: 22px;
+  }
+
 /* orientation LANDSCAPE >> orientation */
 /* _______________________________________________________ */
 
 @media only screen and (orientation: landscape) {
-  #mdiv, .mdiv, .md, .parttitle-block, .parttitle, img, h2, .navsystembottom, .navbutton-block, a, .flipyourphone, .flipyourphone-block, .phone-landscape {display:none;}
+  #mdiv, .mdiv, .md, .parttitle-block, .parttitle, img, h2, .navbutton-block, .navsystem-text, a, .flipyourphone, .flipyourphone-block, .phone-landscape, .researchquestion {display:none;}
   #mainbodytext {display:none;}
 }
 

@@ -19,16 +19,7 @@
 .blackbackground {background:black;}
 
 body {
-  padding: 20px;
-}
-
-a {
-  text-decoration:none;
-  color: black;
-
-  font-family:Agrandir;
-  font-size:12px;
-
+  padding: 10px;
 }
 
 .navbutton-block {
@@ -42,6 +33,15 @@ a {
   margin-bottom:2px;
 }
 
+a {text-decoration:none;}
+
+.navsystem-text {
+  margin-left: 10px;
+  color: black;
+
+  font-family:Agrandir;
+  font-size:12px;
+}
 
 /* closing button  */
 #mdiv {
@@ -222,10 +222,11 @@ img {
 
 .parttitle {
   font-family:Agrandir;
-  font-size: 50px;
+  font-size: 45px;
   color: black;
 
-  line-height:80px;
+  line-height:60px;
+  margin-top:10px;
   margin-left: 10px;
 }
 
@@ -237,13 +238,6 @@ h2 {
   line-height: 22px;
 }
 
-h3 {
-  font-size: 15px;
-  color: black;
-  font-family: Agrandir;
-
-  line-height: 17px;
-}
 
 /* bodytext */
 .maintext {
