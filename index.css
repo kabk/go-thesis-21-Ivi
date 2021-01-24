@@ -11,6 +11,11 @@
   src: url(type/Agrandir.otf);
 }
 
+@font-face {
+  font-family: Agrandir-italic;
+  src: url(type/Agrandir-italic.otf);
+}
+
 .blackbackground {background:black;}
 
 body {
@@ -264,10 +269,18 @@ h3 {
 }
 
 .poem {
-  font-size: 15px;
+  font-size: 20px;
   color: black;
-  font-family: Agrandir;
+  font-family: Agrandir-italic;
 
-  line-height: 17px;
+  line-height: 30px;
   text-align: center;
+}
+
+.researchquestion {
+  font-size: 20px;
+  color:rgb(255, 107, 0);
+  font-family: Cirka;
+
+  line-height: 22px;
 }
