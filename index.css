@@ -158,7 +158,7 @@ a {
 
   /* abstract */
   .abstractblock {
-    width: 44vw;
+    width: 42vw;
     height:12px;
     outline: 2px white solid;
     background-color:white;
@@ -181,7 +181,7 @@ a {
 
   /* bibliography */
   .bibliographyblock {
-    width: 44vw;
+    width: 42vw;
     height:12px;
     outline: 2px white solid;
     background-color:white;
