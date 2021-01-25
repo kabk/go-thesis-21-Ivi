@@ -264,7 +264,28 @@ h3 {
 }
 
 /* in text typographic exeptions */
-.footnote {}
+.foodnote-box {
+  width: 90vw;
+  height: 75px;
+  outline: 0.5px rgb(255, 107, 0) solid;
+  display: inline-block;
+
+  margin-left:2vw;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+.footnote {
+  font-size: Agrandir italic;
+  font-size: 15px;
+  color:rgb(255, 107, 0);
+  line-height:20px;
+  margin: 5px;
+
+  text-align: center;
+
+
+}
 
 .intextquote {
   /*display: inline; */
