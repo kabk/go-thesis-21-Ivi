@@ -145,7 +145,7 @@ a {
   }
   .oval4 {
     top: 70vh;
-    left: 10%;
+    left: 12%;
   }
   .oval5 {
     top: 80vh;
@@ -158,7 +158,7 @@ a {
 
   /* abstract */
   .abstractblock {
-    width: 42vw;
+    width: 43vw;
     height:12px;
     outline: 2px white solid;
     background-color:white;
@@ -181,7 +181,7 @@ a {
 
   /* bibliography */
   .bibliographyblock {
-    width: 42vw;
+    width: 43vw;
     height:12px;
     outline: 2px white solid;
     background-color:white;
