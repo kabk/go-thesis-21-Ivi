@@ -156,6 +156,52 @@ a {
     left: 45%;
   }
 
+  /* abstract */
+  .abstractblock {
+    width: 40vw;
+    height:12px;
+    outline: 2px white solid;
+    background-color:white;
+    display: inline-block;
+
+    margin-left:2vw;
+    margin-top: 15px;
+
+    z-index:100;}
+
+.abstractblock-title {
+    font-family:agrandir-italic;
+    font-size: 10px;
+    text-align:center;
+
+    color: black;
+    line-height:15px;
+    margin-left:2px;
+  }
+
+  /* bibliography */
+  .bibliographyblock {
+    width: 47vw;
+    height:12px;
+    outline: 2px white solid;
+    background-color:white;
+    display: inline-block;
+
+    margin-left:2vw;
+    margin-top: 15px;
+
+    z-index:100;}
+
+.bibliography-title{
+    font-family:agrandir-italic;
+    font-size: 10px;
+    text-align:center;
+
+    color: black;
+    line-height:15px;
+    margin-left:2px;
+  }
+
 
   /* bottom colophon */
   .bottom-colophon {
