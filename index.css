@@ -209,6 +209,13 @@ a {
     margin-left:2px;
   }
 
+.biblio-text {
+  font-family:Cirka;
+  font-size: 10px;
+  line-height: 20px;
+  text-alight:center;
+}
+
 
   /* bottom colophon */
   .bottom-colophon {
