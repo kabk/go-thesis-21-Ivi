@@ -179,6 +179,13 @@ a {
     margin-left:2px;
   }
 
+  .abstract-text {
+    font-family:Agrandir;
+    font-size: 15px;
+    line-height: 20px;
+
+  }
+
   /* bibliography */
   .bibliographyblock {
     width: 43vw;
