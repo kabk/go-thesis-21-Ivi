@@ -27,6 +27,7 @@ a {
     color: black;
 }
 
+
 .navbutton-block {
   width: 90vw;
   height: 35px;
@@ -211,9 +212,12 @@ a {
 
 .biblio-text {
   font-family:Cirka;
-  font-size: 10px;
+  font-size: 15px;
   line-height: 20px;
   text-alight:center;
+
+  margin-left: 40px;
+  margin-right: 50px;
 }
 
 
