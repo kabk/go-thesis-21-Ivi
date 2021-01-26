@@ -17,8 +17,8 @@ body {
     border: 1px solid white;
     background-color:rgb(255, 107, 0);
 
-    position:sticky;
     position: -webkit-sticky;
+    position:sticky;
     top:0;
     left:0;
     z-index:30;
@@ -70,7 +70,6 @@ header {
   margin-left:20px;
   margin-right:20px;
 }
-
 
 
 /* rituals */
