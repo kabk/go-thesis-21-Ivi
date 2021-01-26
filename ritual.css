@@ -13,8 +13,8 @@ body {
 
 /* closing button  */
 #mdiv {
-    width: 25px;
-    height: 25px;
+    width: 100px;
+    height: 100px;
     border: 1px solid white;
     background-color:rgb(255, 107, 0);
 
