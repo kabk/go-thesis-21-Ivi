@@ -6,7 +6,6 @@ body {
     color: white;
     text-align: center;
 
-
     padding: 25px;
 
 }
@@ -72,15 +71,7 @@ header {
   margin-right:20px;
 }
 
-.ritualbox {
-  height: 100vh;
-  width: 100vw;
 
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin-left:20px;
-  margin-right:20px;
-}
 
 /* rituals */
 .oval1, .oval2, .oval3, .oval4, .oval5, .oval6 {
