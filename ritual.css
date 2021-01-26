@@ -80,7 +80,7 @@ header {
   filter: drop-shadow(0 0 0.75rem white);
   /*border: white 5px solid;*/
 
-  position: absolute;
+  position: relative;
   margin-bottom: 20px;
 
   font-family:'Space Mono', monospace;
