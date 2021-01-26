@@ -43,11 +43,11 @@ body {
 
 /* title */
 h1 {
-  font-size: 70px;
+  font-size: 50px;
   color: white;
   font-family: 'Space Mono', monospace;
   text-align: center;
-  line-height: 65px;
+  line-height: 55px;
 }
 
 /* subtitle */
@@ -62,10 +62,14 @@ h2 {
 
 header {
   padding-bottom: 20vh;
+  margin-left:20px;
+  margin-right:20px;
 }
 
 .ritual_container {
   padding-bottom: 20vh;
+  margin-left:20px;
+  margin-right:20px;
 }
 
 .ritualbox {
@@ -74,19 +78,20 @@ header {
 
   padding-top: 40px;
   padding-bottom: 40px;
+  margin-left:20px;
+  margin-right:20px;
 }
 
 /* rituals */
 .oval1, .oval2, .oval3, .oval4, .oval5, .oval6 {
   height: 15vh;
-  width: 80vw;
+  width: 75vw;
   border-radius: 50%;
   background: white;
   filter: drop-shadow(0 0 0.75rem white);
   /*border: white 5px solid;*/
 
   position: relative;
-  left: 10%;
   margin-bottom: 20px;
 
   font-family:'Space Mono', monospace;
@@ -110,7 +115,7 @@ header {
 #heart {
   position: relative;
   align-content: center;
-  left: 45vw;
+  left: 50%;
   margin-top:30px;
   height:30px;
   width: 30px;
